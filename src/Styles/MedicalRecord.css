@@ -1,0 +1,62 @@
+/* Centering the component grid */
+.component-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Styling for each component card */
+.component-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 250px;
+  margin: 10px;
+}
+
+.component-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Icon styling */
+.icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+/* Heading styling */
+h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Button container styling */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Button styling */
+.view-button, .upload-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover, .upload-button:hover {
+  background-color: #0056b3;
+}

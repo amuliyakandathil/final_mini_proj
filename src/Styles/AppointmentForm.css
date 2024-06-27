@@ -1,0 +1,184 @@
+/* General styles for form */
+.appointment-form-section {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../Assets/appo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.appointment-form-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dim the background image */
+    z-index: 0;
+}
+
+/* Site Title */
+.legal-siteTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: .7px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+.legal-siteSign {
+    color: #9D2553;
+}
+.legal-siteTitle a {
+    text-decoration: none;
+    color: inherit;
+}
+.legal-siteTitle a:hover {
+    color: #9D2553;
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(0, 0, 0, 0.7); /* Transparent black background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Form Title */
+.form-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: .7px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+.form-title span {
+    display: inline-block;
+    border-bottom: 4px solid #9D2553;
+}
+
+/* Form Content */
+.form-content {
+    width: 100%;
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-content label {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.form-content input,
+.form-content select {
+    width: 100%;
+    padding: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color .3s;
+    box-sizing: border-box;
+}
+.form-content input:focus,
+.form-content select:focus {
+    border-color: #1A8EFD;
+}
+
+/* Suggestion */
+.suggestion {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #fff;
+}
+.suggestion button {
+    margin-left: 8px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #1A8EFD;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.suggestion button:hover {
+    text-decoration: underline;
+}
+
+/* Error Message */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: -12px;
+    margin-bottom: 12px;
+}
+
+/* Submit Button */
+.text-appointment-btn {
+    width: 100%;
+    padding: 14px 20px;
+    color: white;
+    background-color: #1A8EFD;
+    border: none;
+    border-radius: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+.text-appointment-btn:hover {
+    background-color: transparent;
+    color: #1A8EFD;
+    border: 1px solid #1A8EFD;
+}
+
+/* Success Message */
+.success-message {
+    color: #28a745;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+/* Footer */
+.legal-footer {
+    margin-top: 32px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .legal-siteTitle {
+        font-size: 28px;
+    }
+    .form-title {
+        font-size: 24px;
+    }
+    .text-appointment-btn {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.my-doctors-page {
+  color: #333;
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doctors-section {
+  margin-bottom: 40px;
+}
+
+.doctors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.doctor-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+}
+
+.doctor-image {
+  border-radius: 50%;
+}
+
+.doctor-details {
+  flex-grow: 1;
+}
+
+.doctor-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.consulted {
+  width: 400px;
+}
+
+.suggested {
+  width: 200px;
+}
+
+.doctor-image.consulted {
+  height: 100px;
+  width: 100px;
+}
+
+.doctor-image.suggested {
+  height: 40px;
+  width: 40px;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 20px;
+}
+
+.star.selected {
+  color: #f39c12;
+}
+
+.doctor-card.suggested .doctor-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.8em;
+}

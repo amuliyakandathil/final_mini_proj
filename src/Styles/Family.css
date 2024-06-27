@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+    background-image: url('https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNfK6brMJBkuCZiNRPjUxc9dUp3BfXIp3Lcg&s');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  
+  .App-header {
+    background-color: #3875ee;
+    padding: 20px;
+    color: rgb(6, 6, 6);
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact-card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card h2 {
+    margin-top: 0;
+  }
+  
+  .contact-card p {
+    margin: 5px 0;
+  }
