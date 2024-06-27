@@ -1,0 +1,462 @@
+[{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740430"
+  },
+  "Medicine ID": 1,
+  "Medication Name": "Atorvastatin",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "08:30 AM",
+  "Department": "Cardiology",
+  "Doctor Name": "Dr. Anderson"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740431"
+  },
+  "Medicine ID": 2,
+  "Medication Name": "Atorvastatin",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 PM",
+  "Special Instructions": "Take with water",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "09:00 PM",
+  "Department": "Cardiology",
+  "Doctor Name": "Dr. Anderson"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740432"
+  },
+  "Medicine ID": 3,
+  "Medication Name": "Gabapentin",
+  "Dosage": "300 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "2 months",
+  "Starting time": "09:00 AM",
+  "Department": "Neurology",
+  "Doctor Name": "Dr. Brown"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740433"
+  },
+  "Medicine ID": 4,
+  "Medication Name": "Gabapentin",
+  "Dosage": "300 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 PM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "2 months",
+  "Starting time": "09:00 PM",
+  "Department": "Neurology",
+  "Doctor Name": "Dr. Brown"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740434"
+  },
+  "Medicine ID": 5,
+  "Medication Name": "Hydrochlorothiazide",
+  "Dosage": "25 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "6 months",
+  "Starting time": "09:00 AM",
+  "Department": "Nephrology",
+  "Doctor Name": "Dr. Johnson"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740435"
+  },
+  "Medicine ID": 6,
+  "Medication Name": "Ibuprofen",
+  "Dosage": "200 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 AM",
+  "Special Instructions": "Take after meals",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "09:00 AM",
+  "Department": "Orthopedics",
+  "Doctor Name": "Dr. Clark"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740436"
+  },
+  "Medicine ID": 7,
+  "Medication Name": "Ibuprofen",
+  "Dosage": "200 mg",
+  "Frequency": "Daily",
+  "Time of the day": "2:00 PM",
+  "Special Instructions": "Take after meals",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "02:00 PM",
+  "Department": "Orthopedics",
+  "Doctor Name": "Dr. Clark"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740437"
+  },
+  "Medicine ID": 8,
+  "Medication Name": "Omeprazole",
+  "Dosage": "20 mg",
+  "Frequency": "Daily",
+  "Time of the day": "8:00 AM",
+  "Special Instructions": "Take before food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "3 months",
+  "Starting time": "09:00 AM",
+  "Department": "Gastroenterology",
+  "Doctor Name": "Dr. Davis"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740438"
+  },
+  "Medicine ID": 9,
+  "Medication Name": "Omeprazole",
+  "Dosage": "20 mg",
+  "Frequency": "Daily",
+  "Time of the day": "8:00 PM",
+  "Special Instructions": "Take before dinner",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "3 months",
+  "Starting time": "09:00 PM",
+  "Department": "Gastroenterology",
+  "Doctor Name": "Dr. Davis"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d8740439"
+  },
+  "Medicine ID": 10,
+  "Medication Name": "Prednisone",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "10:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "Duration of Medicine": "15 days",
+  "Starting time": "09:00 AM",
+  "Department": "Rheumatology",
+  "Doctor Name": "Dr. Martinez"
+},
+{
+  "_id": {
+    "$oid": "664ff73862fa1446d874043a"
+  },
+  "Medicine ID": 11,
+  "Medication Name": "Prednisone",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "3:00 PM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "Duration of Medicine": "15 days",
+  "Starting time": "02:00 PM",
+  "Department": "Rheumatology",
+  "Doctor Name": "Dr. Martinez"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89e9"
+  },
+  "Medicine ID": 12,
+  "Medication Name": "Lisinopril",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-15T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "09:00 AM",
+  "Department": "Cardiology",
+  "Doctor Name": "Dr. Anderson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89ea"
+  },
+  "Medicine ID": 13,
+  "Medication Name": "Metformin",
+  "Dosage": "500 mg",
+  "Frequency": "Daily",
+  "Time of the day": "8:45 AM",
+  "Special Instructions": "Take with food",
+  "Start Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "2 months",
+  "Starting time": "09:00 AM",
+  "Department": "Endocrinology",
+  "Doctor Name": "Dr. Lee"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89eb"
+  },
+  "Medicine ID": 14,
+  "Medication Name": "Metformin",
+  "Dosage": "500 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 PM",
+  "Special Instructions": "Take with food",
+  "Start Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "2 months",
+  "Starting time": "09:00 PM",
+  "Department": "Endocrinology",
+  "Doctor Name": "Dr. Lee"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89ec"
+  },
+  "Medicine ID": 15,
+  "Medication Name": "Levothyroxine",
+  "Dosage": "50 mcg",
+  "Frequency": "Daily",
+  "Time of the day": "8:00 AM",
+  "Special Instructions": "Take before food",
+  "Start Date": {
+    "$date": "2024-06-10T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  },
+  "Duration of Medicine": "6 months",
+  "Starting time": "09:00 AM",
+  "Department": "Endocrinology",
+  "Doctor Name": "Dr. Lee"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89ed"
+  },
+  "Medicine ID": 16,
+  "Medication Name": "Amlodipine",
+  "Dosage": "5 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:30 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "2 months",
+  "Starting time": "09:00 AM",
+  "Department": "Cardiology",
+  "Doctor Name": "Dr. Anderson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89ee"
+  },
+  "Medicine ID": 17,
+  "Medication Name": "Propranolol",
+  "Dosage": "40 mg",
+  "Frequency": "Daily",
+  "Time of the day": "8:00 AM",
+  "Special Instructions": "Take before food",
+  "Start Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-10-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "3 months",
+  "Starting time": "09:00 AM",
+  "Department": "Cardiology",
+  "Doctor Name": "Dr. Anderson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89ef"
+  },
+  "Medicine ID": 18,
+  "Medication Name": "Alprazolam",
+  "Dosage": "0.5 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:00 PM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-15T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "09:00 PM",
+  "Department": "Psychiatry",
+  "Doctor Name": "Dr. Thompson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89f0"
+  },
+  "Medicine ID": 19,
+  "Medication Name": "Clonazepam",
+  "Dosage": "1 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:30 PM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-07-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "1 month",
+  "Starting time": "09:00 PM",
+  "Department": "Psychiatry",
+  "Doctor Name": "Dr. Thompson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89f1"
+  },
+  "Medicine ID": 20,
+  "Medication Name": "Escitalopram",
+  "Dosage": "10 mg",
+  "Frequency": "Daily",
+  "Time of the day": "9:30 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "6 months",
+  "Starting time": "09:00 AM",
+  "Department": "Psychiatry",
+  "Doctor Name": "Dr. Thompson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89f2"
+  },
+  "Medicine ID": 21,
+  "Medication Name": "Furosemide",
+  "Dosage": "20 mg",
+  "Frequency": "Daily",
+  "Time of the day": "10:00 AM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "3 months",
+  "Starting time": "09:00 AM",
+  "Department": "Nephrology",
+  "Doctor Name": "Dr. Johnson"
+},
+{
+  "_id": {
+    "$oid": "664ff88e9c92d9331d7c89f3"
+  },
+  "Medicine ID": 22,
+  "Medication Name": "Furosemide",
+  "Dosage": "20 mg",
+  "Frequency": "Daily",
+  "Time of the day": "2:30 PM",
+  "Special Instructions": "Take after food",
+  "Start Date": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "End Date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "Duration of Medicine": "3 months",
+  "Starting time": "02:00 PM",
+  "Department": "Nephrology",
+  "Doctor Name": "Dr. Johnson"
+}]
